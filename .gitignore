@@ -5,3 +5,21 @@
 /Waambot/.vs/Waambot/v16/Server/sqlite3/db.lock
 /Waambot/2-Waambot-DB/2-Waambot-DB.dbmdl
 /Waambot/2-Waambot-DB/2-Waambot-DB.jfm
+/Waambot/4-Waambot-Service/App.config
+
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+/Waambot/.vs/Waambot/v16/.suo
