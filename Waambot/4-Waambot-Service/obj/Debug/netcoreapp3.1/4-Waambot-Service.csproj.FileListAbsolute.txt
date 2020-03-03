@@ -19,3 +19,7 @@ E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\obj\Debug\netcoreapp3.1\4-Waamb
 E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\obj\Debug\netcoreapp3.1\4-Waambot-Service.AssemblyInfo.cs
 E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\obj\Debug\netcoreapp3.1\4-Waambot-Service.dll
 E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\obj\Debug\netcoreapp3.1\4-Waambot-Service.pdb
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\Discord.Net.Core.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\obj\Debug\netcoreapp3.1\4-Waambot-Service.csproj.CopyComplete
