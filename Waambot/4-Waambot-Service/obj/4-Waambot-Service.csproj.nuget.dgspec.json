@@ -48,6 +48,10 @@
             "Discord.Net.WebSocket": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

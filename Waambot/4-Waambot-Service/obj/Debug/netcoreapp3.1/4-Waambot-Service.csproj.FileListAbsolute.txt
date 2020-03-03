@@ -23,3 +23,17 @@ E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\Discord
 E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
 E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\obj\Debug\netcoreapp3.1\4-Waambot-Service.csproj.CopyComplete
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\4-Waambot-Service.dll.config
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\Discord.Net.Rest.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\Discord.Net.WebSocket.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\waambot-dev\WaamBot\Waambot\4-Waambot-Service\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll

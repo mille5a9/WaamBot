@@ -1,9 +1,10 @@
 ﻿using Discord;
 using Discord.WebSocket;
 using System;
+using System.Configuration;
 using System.Threading.Tasks;
 
-namespace Waambot_Service
+namespace _4_Waambot_Service
 {
     class Program
     {
@@ -15,7 +16,7 @@ namespace Waambot_Service
         {
             var client = new DiscordSocketClient();
             client.Log += Log;
-            var token = "token";
+            var token = ConfigurationManager.AppSettings["MyToken"];
 
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
