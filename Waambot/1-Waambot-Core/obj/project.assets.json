@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\waambot-dev\\WaamBot\\Waambot\\1-Wammbot-Core\\1-Waambot-Core.csproj",
+      "projectUniqueName": "E:\\waambot-dev\\WaamBot\\Waambot\\1-Waambot-Core\\1-Waambot-Core.csproj",
       "projectName": "1-Waambot-Core",
-      "projectPath": "E:\\waambot-dev\\WaamBot\\Waambot\\1-Wammbot-Core\\1-Waambot-Core.csproj",
+      "projectPath": "E:\\waambot-dev\\WaamBot\\Waambot\\1-Waambot-Core\\1-Waambot-Core.csproj",
       "packagesPath": "C:\\Users\\Andre\\.nuget\\packages\\",
-      "outputPath": "E:\\waambot-dev\\WaamBot\\Waambot\\1-Wammbot-Core\\obj\\",
+      "outputPath": "E:\\waambot-dev\\WaamBot\\Waambot\\1-Waambot-Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
