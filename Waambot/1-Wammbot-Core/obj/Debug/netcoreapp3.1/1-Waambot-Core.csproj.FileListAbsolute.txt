@@ -1,0 +1,15 @@
+E:\waambot-dev\WaamBot\Waambot\Wammbot-Core\bin\Debug\netcoreapp3.1\1-Waambot-Core.deps.json
+E:\waambot-dev\WaamBot\Waambot\Wammbot-Core\bin\Debug\netcoreapp3.1\1-Waambot-Core.dll
+E:\waambot-dev\WaamBot\Waambot\Wammbot-Core\bin\Debug\netcoreapp3.1\1-Waambot-Core.pdb
+E:\waambot-dev\WaamBot\Waambot\Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.AssemblyInfoInputs.cache
+E:\waambot-dev\WaamBot\Waambot\Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.AssemblyInfo.cs
+E:\waambot-dev\WaamBot\Waambot\Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.dll
+E:\waambot-dev\WaamBot\Waambot\Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.pdb
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\bin\Debug\netcoreapp3.1\1-Waambot-Core.deps.json
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\bin\Debug\netcoreapp3.1\1-Waambot-Core.dll
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\bin\Debug\netcoreapp3.1\1-Waambot-Core.pdb
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.csprojAssemblyReference.cache
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.AssemblyInfoInputs.cache
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.AssemblyInfo.cs
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.dll
+E:\waambot-dev\WaamBot\Waambot\1-Wammbot-Core\obj\Debug\netcoreapp3.1\1-Waambot-Core.pdb

@@ -1,0 +1,6 @@
+E:\waambot-dev\WaamBot\Waambot\2-Waambot-DB\bin\Debug\2-Waambot-DB.dacpac
+E:\waambot-dev\WaamBot\Waambot\2-Waambot-DB\bin\Debug\_2_Waambot_DB.dll
+E:\waambot-dev\WaamBot\Waambot\2-Waambot-DB\bin\Debug\_2_Waambot_DB.pdb
+E:\waambot-dev\WaamBot\Waambot\2-Waambot-DB\obj\Debug\2-Waambot-DB.sqlprojAssemblyReference.cache
+E:\waambot-dev\WaamBot\Waambot\2-Waambot-DB\obj\Debug\_2_Waambot_DB.dll
+E:\waambot-dev\WaamBot\Waambot\2-Waambot-DB\obj\Debug\_2_Waambot_DB.pdb
