@@ -3,10 +3,11 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Waambot_Service</RootNamespace>
+    <RootNamespace>_4_Waambot_Service</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Discord.Net.Commands" Version="2.1.1" />
     <PackageReference Include="Discord.Net.Core" Version="2.1.1" />
     <PackageReference Include="Discord.Net.WebSocket" Version="2.1.1" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />

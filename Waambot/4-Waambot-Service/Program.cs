@@ -1,4 +1,5 @@
 ﻿using Discord;
+using Discord.Commands;
 using Discord.WebSocket;
 using System;
 using System.Configuration;
@@ -15,9 +16,13 @@ namespace _4_Waambot_Service
         public async Task MainAsync()
         {
             var client = new DiscordSocketClient();
-            client.Log += Log;
-            var token = ConfigurationManager.AppSettings["MyToken"];
+            var commands = new CommandService();
+            var handler = new CommandHandler(client, commands);
 
+            client.Log += Log;
+            var token = ConfigurationManager.AppSettings["WaamBot"];
+
+            await handler.InstallCommandsAsync();
             await client.LoginAsync(TokenType.Bot, token);
             await client.StartAsync();
 
