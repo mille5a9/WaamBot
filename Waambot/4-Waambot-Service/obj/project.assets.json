@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Discord.Net.Commands/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Discord.Net.Core": "2.1.1",
+          "Microsoft.Extensions.DependencyInjection": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Discord.Net.Commands.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Discord.Net.Commands.dll": {}
+        }
+      },
       "Discord.Net.Core/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -39,6 +52,27 @@
         },
         "runtime": {
           "lib/netstandard2.0/Discord.Net.WebSocket.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {
@@ -392,6 +426,23 @@
     }
   },
   "libraries": {
+    "Discord.Net.Commands/2.1.1": {
+      "sha512": "mOscttcZMm1O5IlJ4HWtro9AwZ7JHurgEgXfbWSct3Gai7qGdMdbby+63q2olKvc8uj5PDiWeopSGM22AhoPBQ==",
+      "type": "package",
+      "path": "discord.net.commands/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "discord.net.commands.2.1.1.nupkg.sha512",
+        "discord.net.commands.nuspec",
+        "lib/net46/Discord.Net.Commands.dll",
+        "lib/net46/Discord.Net.Commands.xml",
+        "lib/netstandard1.3/Discord.Net.Commands.dll",
+        "lib/netstandard1.3/Discord.Net.Commands.xml",
+        "lib/netstandard2.0/Discord.Net.Commands.dll",
+        "lib/netstandard2.0/Discord.Net.Commands.xml"
+      ]
+    },
     "Discord.Net.Core/2.1.1": {
       "sha512": "EN5aQG6kuWZ3/42Qtlqs4+IVSGEiZyXXi78ICc+Piu9AErDdHeUuzDZVyfpBhlKkUdMse8tb8wV/lrgEgyGM5A==",
       "type": "package",
@@ -441,6 +492,32 @@
         "lib/netstandard1.3/Discord.Net.WebSocket.xml",
         "lib/netstandard2.0/Discord.Net.WebSocket.dll",
         "lib/netstandard2.0/Discord.Net.WebSocket.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/2.0.0": {
+      "sha512": "wakg18gHYiUL1pcjjyZuYk6OvDpbSw1E7IWxm78TMepsr+gQ8W0tWzuRm0q/9RFblngwPwo15rrgZSUV51W5Iw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "sha512": "eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
@@ -1747,6 +1824,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Discord.Net.Commands >= 2.1.1",
       "Discord.Net.Core >= 2.1.1",
       "Discord.Net.WebSocket >= 2.1.1",
       "System.Configuration.ConfigurationManager >= 4.7.0"
@@ -1793,6 +1871,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "Discord.Net.Commands": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Discord.Net.Core": {
             "target": "Package",
             "version": "[2.1.1, )"

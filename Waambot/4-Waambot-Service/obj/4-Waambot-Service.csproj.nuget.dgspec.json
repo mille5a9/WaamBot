@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
             "Discord.Net.Core": {
               "target": "Package",
               "version": "[2.1.1, )"
