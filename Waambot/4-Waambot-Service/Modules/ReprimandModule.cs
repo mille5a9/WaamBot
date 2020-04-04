@@ -1,5 +1,4 @@
 ﻿using Discord.Commands;
-using System.Threading.Channels;
 using System.Threading.Tasks;
 
 namespace _4_Waambot_Service.Modules
@@ -8,9 +7,16 @@ namespace _4_Waambot_Service.Modules
     {
         [Command("reprimand")]
         [Summary("Tags the subject and tells them how bad they have been.")]
-        public async Task ReprimandAsync([Remainder] [Summary("The user's tag to reprimand")] string usertag)
+        public async Task ReprimandAsync([Summary("The user's tag to reprimand")] string usertag, [Remainder][Summary("Optional Reason for Reprimanding")] string reasoning = "")
         {
-            await this.Context.Channel.SendMessageAsync($"{usertag}, you're reprimanded.");
+            if (string.IsNullOrEmpty(reasoning))
+            {
+                await this.Context.Channel.SendMessageAsync($"{usertag}, you're reprimanded.");
+            }
+            else
+            {
+                await this.Context.Channel.SendMessageAsync($"{usertag}, you're reprimanded because {reasoning}");
+            }
         }
     }
 }
