@@ -1,6 +1,7 @@
 ﻿using Discord.Commands;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Threading.Tasks;
 using System.IO;
 using System.Linq;
@@ -15,8 +16,6 @@ namespace _4_Waambot_Service.Modules
         [Summary("Tags the subject and tells them how bad they have been.")]
         public async Task ReprimandAsync([Summary("The user's tag to reprimand")] string usertag, [Remainder][Summary("Optional Reason for Reprimanding")] string reasoning = "")
         {
-            Console.WriteLine(usertag);
-
             // load reprimand log and add 1 reprimand to the reprimanded user
             List<Tuple<string, int>> replog = LoadReprimandLog();
             if (replog.Count() == 0) {
@@ -80,7 +79,7 @@ namespace _4_Waambot_Service.Modules
             StreamReader file;
 
             try {
-                file = new StreamReader(@"ReprimandLog.txt");
+                file = new StreamReader(ConfigurationManager.AppSettings["ReprimandLogPath"]);
             }
             catch (FileNotFoundException ex) {
                 Console.WriteLine(ex.Message);
@@ -100,7 +99,7 @@ namespace _4_Waambot_Service.Modules
         }
 
         private void SaveReprimandLog(List<Tuple<string, int>> replog) {
-            StreamWriter file = new StreamWriter(@"ReprimandLog.txt", false);
+            StreamWriter file = new StreamWriter(ConfigurationManager.AppSettings["ReprimandLogPath"], false);
             String line = "";
 
             // Add each object of replog as a new line in the log
