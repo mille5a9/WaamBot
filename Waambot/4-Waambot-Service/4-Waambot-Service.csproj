@@ -5,10 +5,14 @@
     <RootNamespace>_4_Waambot_Service</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Discord.Net.Commands" Version="2.2.0"/>
-    <PackageReference Include="Discord.Net.Core" Version="2.2.0"/>
-    <PackageReference Include="Discord.Net.WebSocket" Version="2.2.0"/>
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0"/>
-    <PackageReference Include="Discord.Net" Version="2.2.0"/>
+    <PackageReference Include="AngleSharp" Version="0.16.0" />
+    <PackageReference Include="Discord.Net.Commands" Version="2.2.0" />
+    <PackageReference Include="Discord.Net.Core" Version="2.2.0" />
+    <PackageReference Include="Discord.Net.WebSocket" Version="2.2.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.35" />
+    <PackageReference Include="ScrapySharp" Version="3.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="Discord.Net" Version="2.2.0" />
+    <PackageReference Include="System.Windows.Forms" Version="4.0.0.0" />
   </ItemGroup>
 </Project>
